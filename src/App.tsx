@@ -10,6 +10,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
 import About from './components/About';
+import NFTGallery from './components/NFTGallery';
+import MintPanel from './components/MintPanel';
 
 export default function App() {
   return (
@@ -22,7 +24,8 @@ export default function App() {
               <Hero />
               <Stats />
               <About />
-              {/* Sections for Showcase, Mint, Roadmap, Team, etc. can be added here */}
+              <NFTGallery />
+              <MintPanel />
             </main>
           </div>
         </RainbowKitProvider>
